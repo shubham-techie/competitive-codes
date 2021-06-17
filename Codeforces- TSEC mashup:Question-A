@@ -1,7 +1,6 @@
-#### https://codeforces.com/gym/332974/problem/A \
-\
-\
-\
+#### https://codeforces.com/gym/332974/problem/A 
+
+
 
 n,t=map(int,input().split())
 
