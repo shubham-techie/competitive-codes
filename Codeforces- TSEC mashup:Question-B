@@ -1,0 +1,22 @@
+Problem on: https://codeforces.com/gym/332974/problem/B
+
+
+
+n=int(input())
+lst=list(map(int,input().split()[:n]))
+
+initial=lst[0]
+less_temp=initial
+greater_temp=initial
+count=0
+
+for i in range(1,len(lst)):
+    if less_temp > lst[i]:
+        less_temp = lst[i]
+        count+=1
+        
+    elif greater_temp < lst[i]:
+        greater_temp=lst[i]
+        count+=1
+        
+print(count)
