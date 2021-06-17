@@ -1,0 +1,23 @@
+#### https://codeforces.com/gym/332974/problem/A \
+\
+\
+\
+
+n,t=map(int,input().split())
+
+lst=[]
+count=0
+cal=t
+totaltime=240
+
+for i in range(1,n+1):
+    lst.append(5*i)
+
+for i in range(n):
+    cal=cal+lst[i]
+
+    if cal<=totaltime:
+        count+=1
+            
+
+print(count)
