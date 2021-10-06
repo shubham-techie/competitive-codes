@@ -1,9 +1,8 @@
 /*
 Global Coding Challenge- https://www.credit-suisse.com/pwp/hr/en/codingchallenge/?#/questions
 
-Question 1
+Question 1: Bank and its Cashier
 
-Bank and its Cashier
 A customer comes to withdraw money from a bank. Unfortunately, that day the bank only has two types of currency notes to give: 1 unit and 2 unit. The manager, being amused by the incident, tried to have some fun and decided to create a challenge for the cashier team. She asked the team to minimize the difference between the number of the two types of currency notes. The manager also asked you to give her your solution. You decided to use computational power.What would be your solution?
 
 Constraints
